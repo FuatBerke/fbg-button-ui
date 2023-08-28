@@ -1,0 +1,320 @@
+/* add css module styles here (optional) */
+
+.test {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/******************************** PRIMARY ***************************/
+.primary.normal {
+  background: rgb(77, 130, 255);
+  color: white;
+  border: solid rgb(77, 130, 255);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.primary.normal:hover {
+  filter: drop-shadow(0px 5px 5px rgba(77, 130, 255, 0.646));
+  transition: 250ms;
+}
+
+.primary.outline {
+  background: transparent;
+  color: rgb(77, 130, 255);
+  border: solid rgb(77, 130, 255);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.primary.outline:hover {
+  background: rgb(77, 130, 255);
+  color: white;
+  border: solid rgb(77, 130, 255);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.primary.dashed {
+  background: transparent;
+  color: rgb(77, 130, 255);
+  border: dashed rgb(77, 130, 255);
+  border-width: 0.5px;
+}
+
+.primary.dashed:hover {
+  background: rgb(77, 130, 255);
+  color: white;
+  border: solid rgb(77, 130, 255);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.primary.text {
+  background: transparent;
+  color: rgb(77, 130, 255);
+  border: solid transparent;
+  border-width: 0.5px;
+}
+
+.primary.link {
+  background: transparent;
+  color: rgb(77, 130, 255);
+  text-decoration: underline;
+  text-decoration-color: rgb(77, 130, 255);
+  border: solid transparent;
+  border-width: 0.5px;
+}
+
+/******************************** SECONDARY ***************************/
+.secondary.normal {
+  background: rgb(199, 199, 199);
+  color: white;
+  border: solid rgb(199, 199, 199);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.secondary.normal:hover {
+  filter: drop-shadow(0px 5px 5px rgba(199, 199, 199, 0.646));
+  transition: 250ms;
+}
+
+.secondary.outline {
+  background: transparent;
+  color: rgb(199, 199, 199);
+  border: solid rgb(199, 199, 199);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.secondary.outline:hover {
+  background: rgb(199, 199, 199);
+  color: white;
+  border: solid rgb(199, 199, 199);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.secondary.dashed {
+  background: transparent;
+  color: rgb(199, 199, 199);
+  border: dashed rgb(199, 199, 199);
+  border-width: 0.5px;
+}
+
+.secondary.dashed:hover {
+  background: rgb(199, 199, 199);
+  color: white;
+  border: solid rgb(199, 199, 199);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.secondary.text {
+  background: transparent;
+  color: rgb(199, 199, 199);
+  border: solid transparent;
+  border-width: 0.5px;
+}
+
+.secondary.link {
+  background: transparent;
+  color: rgb(199, 199, 199);
+  text-decoration: underline;
+  text-decoration-color: rgb(199, 199, 199);
+  border: solid transparent;
+  border-width: 0.5px;
+}
+
+/******************************** SUCCESS ***************************/
+.success.normal {
+  background: rgb(38, 222, 129);
+  color: white;
+  border: solid rgb(38, 222, 129);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.success.normal:hover {
+  filter: drop-shadow(0px 5px 5px rgba(38, 222, 129, 0.646));
+  transition: 250ms;
+}
+
+.success.outline {
+  background: transparent;
+  color: rgb(38, 222, 129);
+  border: solid rgb(38, 222, 129);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.success.outline:hover {
+  background: rgb(38, 222, 129);
+  color: white;
+  border: solid rgb(38, 222, 129);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.success.dashed {
+  background: transparent;
+  color: rgb(38, 222, 129);
+  border: dashed rgb(38, 222, 129);
+  border-width: 0.5px;
+}
+
+.success.dashed:hover {
+  background: rgb(38, 222, 129);
+  color: white;
+  border: solid rgb(38, 222, 129);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.success.text {
+  background: transparent;
+  color: rgb(38, 222, 129);
+  border: solid transparent;
+  border-width: 0.5px;
+}
+
+.success.link {
+  background: transparent;
+  color: rgb(38, 222, 129);
+  text-decoration: underline;
+  text-decoration-color: rgb(38, 222, 129);
+  border: solid transparent;
+  border-width: 0.5px;
+}
+
+/******************************** WARNING ***************************/
+.warning.normal {
+  background: rgb(254, 211, 48);
+  color: white;
+  border: solid rgb(254, 211, 48);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.warning.normal:hover {
+  filter: drop-shadow(0px 5px 5px rgba(254, 211, 48, 0.646));
+  transition: 250ms;
+}
+
+.warning.outline {
+  background: transparent;
+  color: rgb(254, 211, 48);
+  border: solid rgb(254, 211, 48);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.warning.outline:hover {
+  background: rgb(254, 211, 48);
+  color: white;
+  border: solid rgb(254, 211, 48);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.warning.dashed {
+  background: transparent;
+  color: rgb(254, 211, 48);
+  border: dashed rgb(254, 211, 48);
+  border-width: 0.5px;
+}
+
+.warning.dashed:hover {
+  background: rgb(254, 211, 48);
+  color: white;
+  border: solid rgb(254, 211, 48);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.warning.text {
+  background: transparent;
+  color: rgb(254, 211, 48);
+  border: solid transparent;
+  border-width: 0.5px;
+}
+
+.warning.link {
+  background: transparent;
+  color: rgb(254, 211, 48);
+  text-decoration: underline;
+  text-decoration-color: rgb(254, 211, 48);
+  border: solid transparent;
+  border-width: 0.5px;
+}
+
+/******************************** DANGER ***************************/
+.danger.normal {
+  background: rgb(248, 66, 34);
+  color: white;
+  border: solid rgb(248, 66, 34);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.danger.normal:hover {
+  filter: drop-shadow(0px 5px 5px rgba(248, 66, 34, 0.646));
+  transition: 250ms;
+}
+
+.danger.outline {
+  background: transparent;
+  color: rgb(248, 66, 34);
+  border: solid rgb(248, 66, 34);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.danger.outline:hover {
+  background: rgb(248, 66, 34);
+  color: white;
+  border: solid rgb(248, 66, 34);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.danger.dashed {
+  background: transparent;
+  color: rgb(248, 66, 34);
+  border: dashed rgb(248, 66, 34);
+  border-width: 0.5px;
+}
+
+.danger.dashed:hover {
+  background: rgb(248, 66, 34);
+  color: white;
+  border: solid rgb(248, 66, 34);
+  border-width: 0.5px;
+  transition: 250ms;
+}
+
+.danger.text {
+  background: transparent;
+  color: rgb(248, 66, 34);
+  border: solid transparent;
+  border-width: 0.5px;
+}
+
+.danger.link {
+  background: transparent;
+  color: rgb(248, 66, 34);
+  text-decoration: underline;
+  text-decoration-color: rgb(248, 66, 34);
+  border: solid transparent;
+  border-width: 0.5px;
+}
