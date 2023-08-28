@@ -4,6 +4,8 @@
 
 [![NPM](https://img.shields.io/npm/v/fbg-button-ui.svg)](https://www.npmjs.com/package/fbg-button-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+![](buttons.png)
+
 ## Install
 
 ```bash
