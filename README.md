@@ -17,13 +17,11 @@ npm install --save fbg-button-ui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'fbg-button-ui'
+import { Button } from 'fbg-button-ui'
 import 'fbg-button-ui/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return <Button color='primary' type='outline' text='Hello World!' />
 }
 ```
 
