@@ -24,7 +24,7 @@ button {
 }
 
 ._3ljpl._3Um6g:hover {
-  filter: drop-shadow(0px 5px 5px rgba(77, 130, 255, 0.646));
+  filter: drop-shadow(0px 5px 5px rgba(77, 130, 255, 0.5));
   transition: 250ms;
 }
 
@@ -70,6 +70,7 @@ button {
   background: transparent;
   color: rgb(77, 130, 255);
   text-decoration: underline;
+  text-underline-offset: 2px;
   -webkit-text-decoration-color: rgb(77, 130, 255);
           text-decoration-color: rgb(77, 130, 255);
   border: solid transparent;
@@ -78,62 +79,63 @@ button {
 
 /******************************** SECONDARY ***************************/
 ._2Lfm6._3Um6g {
-  background: rgb(199, 199, 199);
+  background: rgb(149, 165, 166);
   color: white;
-  border: solid rgb(199, 199, 199);
+  border: solid rgb(149, 165, 166);
   border-width: 0.5px;
   transition: 250ms;
 }
 
 ._2Lfm6._3Um6g:hover {
-  filter: drop-shadow(0px 5px 5px rgba(199, 199, 199, 0.646));
+  filter: drop-shadow(0px 5px 5px rgba(149, 165, 166, 0.5));
   transition: 250ms;
 }
 
 ._2Lfm6._KvQGE {
   background: transparent;
-  color: rgb(199, 199, 199);
-  border: solid rgb(199, 199, 199);
+  color: rgb(149, 165, 166);
+  border: solid rgb(149, 165, 166);
   border-width: 0.5px;
   transition: 250ms;
 }
 
 ._2Lfm6._KvQGE:hover {
-  background: rgb(199, 199, 199);
+  background: rgb(149, 165, 166);
   color: white;
-  border: solid rgb(199, 199, 199);
+  border: solid rgb(149, 165, 166);
   border-width: 0.5px;
   transition: 250ms;
 }
 
 ._2Lfm6._27xYC {
   background: transparent;
-  color: rgb(199, 199, 199);
-  border: dashed rgb(199, 199, 199);
+  color: rgb(149, 165, 166);
+  border: dashed rgb(149, 165, 166);
   border-width: 0.5px;
 }
 
 ._2Lfm6._27xYC:hover {
-  background: rgb(199, 199, 199);
+  background: rgb(149, 165, 166);
   color: white;
-  border: solid rgb(199, 199, 199);
+  border: solid rgb(149, 165, 166);
   border-width: 0.5px;
   transition: 250ms;
 }
 
 ._2Lfm6._5bXm4 {
   background: transparent;
-  color: rgb(199, 199, 199);
+  color: rgb(149, 165, 166);
   border: solid transparent;
   border-width: 0.5px;
 }
 
 ._2Lfm6._71S8l {
   background: transparent;
-  color: rgb(199, 199, 199);
+  color: rgb(149, 165, 166);
   text-decoration: underline;
-  -webkit-text-decoration-color: rgb(199, 199, 199);
-          text-decoration-color: rgb(199, 199, 199);
+  text-underline-offset: 2px;
+  -webkit-text-decoration-color: rgb(149, 165, 166);
+          text-decoration-color: rgb(149, 165, 166);
   border: solid transparent;
   border-width: 0.5px;
 }
@@ -148,7 +150,7 @@ button {
 }
 
 ._2iiDh._3Um6g:hover {
-  filter: drop-shadow(0px 5px 5px rgba(38, 222, 129, 0.646));
+  filter: drop-shadow(0px 5px 5px rgba(38, 222, 129, 0.5));
   transition: 250ms;
 }
 
@@ -194,6 +196,7 @@ button {
   background: transparent;
   color: rgb(38, 222, 129);
   text-decoration: underline;
+  text-underline-offset: 2px;
   -webkit-text-decoration-color: rgb(38, 222, 129);
           text-decoration-color: rgb(38, 222, 129);
   border: solid transparent;
@@ -210,7 +213,7 @@ button {
 }
 
 ._3vq3T._3Um6g:hover {
-  filter: drop-shadow(0px 5px 5px rgba(254, 211, 48, 0.646));
+  filter: drop-shadow(0px 5px 5px rgba(254, 211, 48, 0.5));
   transition: 250ms;
 }
 
@@ -256,6 +259,7 @@ button {
   background: transparent;
   color: rgb(254, 211, 48);
   text-decoration: underline;
+  text-underline-offset: 2px;
   -webkit-text-decoration-color: rgb(254, 211, 48);
           text-decoration-color: rgb(254, 211, 48);
   border: solid transparent;
@@ -272,7 +276,7 @@ button {
 }
 
 ._2zOUo._3Um6g:hover {
-  filter: drop-shadow(0px 5px 5px rgba(248, 66, 34, 0.646));
+  filter: drop-shadow(0px 5px 5px rgba(248, 66, 34, 0.5));
   transition: 250ms;
 }
 
@@ -318,6 +322,7 @@ button {
   background: transparent;
   color: rgb(248, 66, 34);
   text-decoration: underline;
+  text-underline-offset: 2px;
   -webkit-text-decoration-color: rgb(248, 66, 34);
           text-decoration-color: rgb(248, 66, 34);
   border: solid transparent;

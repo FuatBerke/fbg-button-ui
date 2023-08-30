@@ -24,7 +24,7 @@ button {
 }
 
 .primary.normal:hover {
-  filter: drop-shadow(0px 5px 5px rgba(77, 130, 255, 0.646));
+  filter: drop-shadow(0px 5px 5px rgba(77, 130, 255, 0.5));
   transition: 250ms;
 }
 
@@ -70,6 +70,7 @@ button {
   background: transparent;
   color: rgb(77, 130, 255);
   text-decoration: underline;
+  text-underline-offset: 2px;
   text-decoration-color: rgb(77, 130, 255);
   border: solid transparent;
   border-width: 0.5px;
@@ -77,61 +78,62 @@ button {
 
 /******************************** SECONDARY ***************************/
 .secondary.normal {
-  background: rgb(199, 199, 199);
+  background: rgb(149, 165, 166);
   color: white;
-  border: solid rgb(199, 199, 199);
+  border: solid rgb(149, 165, 166);
   border-width: 0.5px;
   transition: 250ms;
 }
 
 .secondary.normal:hover {
-  filter: drop-shadow(0px 5px 5px rgba(199, 199, 199, 0.646));
+  filter: drop-shadow(0px 5px 5px rgba(149, 165, 166, 0.5));
   transition: 250ms;
 }
 
 .secondary.outline {
   background: transparent;
-  color: rgb(199, 199, 199);
-  border: solid rgb(199, 199, 199);
+  color: rgb(149, 165, 166);
+  border: solid rgb(149, 165, 166);
   border-width: 0.5px;
   transition: 250ms;
 }
 
 .secondary.outline:hover {
-  background: rgb(199, 199, 199);
+  background: rgb(149, 165, 166);
   color: white;
-  border: solid rgb(199, 199, 199);
+  border: solid rgb(149, 165, 166);
   border-width: 0.5px;
   transition: 250ms;
 }
 
 .secondary.dashed {
   background: transparent;
-  color: rgb(199, 199, 199);
-  border: dashed rgb(199, 199, 199);
+  color: rgb(149, 165, 166);
+  border: dashed rgb(149, 165, 166);
   border-width: 0.5px;
 }
 
 .secondary.dashed:hover {
-  background: rgb(199, 199, 199);
+  background: rgb(149, 165, 166);
   color: white;
-  border: solid rgb(199, 199, 199);
+  border: solid rgb(149, 165, 166);
   border-width: 0.5px;
   transition: 250ms;
 }
 
 .secondary.text {
   background: transparent;
-  color: rgb(199, 199, 199);
+  color: rgb(149, 165, 166);
   border: solid transparent;
   border-width: 0.5px;
 }
 
 .secondary.link {
   background: transparent;
-  color: rgb(199, 199, 199);
+  color: rgb(149, 165, 166);
   text-decoration: underline;
-  text-decoration-color: rgb(199, 199, 199);
+  text-underline-offset: 2px;
+  text-decoration-color: rgb(149, 165, 166);
   border: solid transparent;
   border-width: 0.5px;
 }
@@ -146,7 +148,7 @@ button {
 }
 
 .success.normal:hover {
-  filter: drop-shadow(0px 5px 5px rgba(38, 222, 129, 0.646));
+  filter: drop-shadow(0px 5px 5px rgba(38, 222, 129, 0.5));
   transition: 250ms;
 }
 
@@ -192,6 +194,7 @@ button {
   background: transparent;
   color: rgb(38, 222, 129);
   text-decoration: underline;
+  text-underline-offset: 2px;
   text-decoration-color: rgb(38, 222, 129);
   border: solid transparent;
   border-width: 0.5px;
@@ -207,7 +210,7 @@ button {
 }
 
 .warning.normal:hover {
-  filter: drop-shadow(0px 5px 5px rgba(254, 211, 48, 0.646));
+  filter: drop-shadow(0px 5px 5px rgba(254, 211, 48, 0.5));
   transition: 250ms;
 }
 
@@ -253,6 +256,7 @@ button {
   background: transparent;
   color: rgb(254, 211, 48);
   text-decoration: underline;
+  text-underline-offset: 2px;
   text-decoration-color: rgb(254, 211, 48);
   border: solid transparent;
   border-width: 0.5px;
@@ -268,7 +272,7 @@ button {
 }
 
 .danger.normal:hover {
-  filter: drop-shadow(0px 5px 5px rgba(248, 66, 34, 0.646));
+  filter: drop-shadow(0px 5px 5px rgba(248, 66, 34, 0.5));
   transition: 250ms;
 }
 
@@ -314,6 +318,7 @@ button {
   background: transparent;
   color: rgb(248, 66, 34);
   text-decoration: underline;
+  text-underline-offset: 2px;
   text-decoration-color: rgb(248, 66, 34);
   border: solid transparent;
   border-width: 0.5px;
